@@ -1,2 +1,3 @@
 # flow-nft-dapp-tutorial
- A tutorial for creating an NFT minting dapp on the Fow Blockchain
+
+ This repo is the code for an article on Creating an NFT minting dapp on the Flow Blockchain.
