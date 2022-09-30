@@ -1,0 +1,34 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {
+		"FlowTutorialMint": "./FlowTutorialMint.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "2becfbede2fb89796ab68df3ec2a23c3627235ec250a3e5da41df850a8dd4349"
+		},
+		"testnet-account": {
+			"address": "0x8e0dac5df6e8489e",
+			"key": "c91f4716a51a66683ccb090ca3eb3e213b90e9f9ae2b1edd12defffe06c57edc"
+		}
+	},
+	"deployments": {
+		"testnet": {
+			"testnet-account": [
+				"FlowTutorialMint"
+			]
+		}
+	}
+}
+
